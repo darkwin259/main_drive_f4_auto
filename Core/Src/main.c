@@ -36,7 +36,7 @@ int main(void)
 	SystemClock_Config();
 	MX_TIM4_Init();
 	MX_USART1_UART_Init();
-	key_pad_gpio();
+
 	Line_PIN_Config();
 	MX_GPIO_Init();
 	TIM5_Init();
@@ -314,10 +314,11 @@ static void MX_GPIO_Init(void)
 
   /*Configure GPIO pins : PE2 PE3 PE4 PE5
                            PE6 PE0 PE1 */
+  // chân IO
   GPIO_InitStruct.Pin = GPIO_PIN_2|GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5
-                          |GPIO_PIN_6|GPIO_PIN_0|GPIO_PIN_1;
+                          |GPIO_PIN_0|GPIO_PIN_1;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 

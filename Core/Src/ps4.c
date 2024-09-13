@@ -169,5 +169,33 @@ int  sign(int number)
 	}else dau = 0;
 	return dau;
 }
+void sendingtoesp32(void)
+{
+	if(values[5]==1)
+	{
+		HAL_GPIO_WritePin(GPIOE, GPIO_PIN_5,1);
+	}
+	else if(values[6]==1)
+	{
+		HAL_GPIO_WritePin(GPIOE, GPIO_PIN_4,1);
+	}
+	else if(values[7]==1)
+		{
+			HAL_GPIO_WritePin(GPIOE, GPIO_PIN_3,1);
+		}
+	else if(values[8]==1)
+			{
+				HAL_GPIO_WritePin(GPIOE, GPIO_PIN_2,1);
+			}
+	else
+	{
+		HAL_GPIO_WritePin(GPIOE, GPIO_PIN_5,0);
+		HAL_GPIO_WritePin(GPIOE, GPIO_PIN_4,0);
+		HAL_GPIO_WritePin(GPIOE, GPIO_PIN_3,0);
+		HAL_GPIO_WritePin(GPIOE, GPIO_PIN_2,0);
+	}
+
+}
+
 
 

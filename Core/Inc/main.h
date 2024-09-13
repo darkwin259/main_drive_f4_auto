@@ -65,7 +65,7 @@ float time;
 
 
 //keypad_lcd
-#include "keypad_lcd.h"
+#include "KEYPAD.h"
 
 char button[4];
 
