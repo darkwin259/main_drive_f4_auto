@@ -1,0 +1,16 @@
+../Core/Src/motor_ctl.c:10:6:MX_TIM1_Init	96	static
+../Core/Src/motor_ctl.c:92:6:MX_TIM8_Init	80	static
+../Core/Src/motor_ctl.c:173:6:PWM_Init	8	static
+../Core/Src/motor_ctl.c:198:6:st_motor1	16	static
+../Core/Src/motor_ctl.c:206:6:st_motor2	16	static
+../Core/Src/motor_ctl.c:214:6:st_motor3	16	static
+../Core/Src/motor_ctl.c:222:6:st_motor4	16	static
+../Core/Src/motor_ctl.c:232:6:chay_thang	16	static
+../Core/Src/motor_ctl.c:241:6:chay_lui	16	static
+../Core/Src/motor_ctl.c:249:6:chay_phai	16	static
+../Core/Src/motor_ctl.c:257:6:chay_trai	16	static
+../Core/Src/motor_ctl.c:265:6:xoay_phai	16	static
+../Core/Src/motor_ctl.c:273:6:xoay_trai	16	static
+../Core/Src/motor_ctl.c:280:6:tha_long	4	static
+../Core/Src/motor_ctl.c:287:6:stop	4	static
+../Core/Src/motor_ctl.c:297:5:speed_shift	16	static

@@ -1,0 +1,5 @@
+../Core/Src/ps4.c:12:6:MX_USART1_UART_Init	8	static
+../Core/Src/ps4.c:34:6:split_array	24	static
+../Core/Src/ps4.c:159:6:sign	0	static
+../Core/Src/ps4.c:59:6:Control_Move	24	static
+../Core/Src/ps4.c:149:6:Hand_Control	8	static
