@@ -1,0 +1,6 @@
+../Core/Src/keypad_lcd.c:4:6:key_pad_gpio	32	static
+../Core/Src/keypad_lcd.c:21:6:read_1	8	static
+../Core/Src/keypad_lcd.c:51:6:read_2	8	static
+../Core/Src/keypad_lcd.c:81:6:read_3	8	static
+../Core/Src/keypad_lcd.c:111:6:read_4	8	static
+../Core/Src/keypad_lcd.c:141:6:read_keypad	8	static
